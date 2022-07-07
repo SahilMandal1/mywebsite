@@ -58,6 +58,7 @@ header .navbar ul li a {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 4rem;
 }
 
 .home .row .image-container {
