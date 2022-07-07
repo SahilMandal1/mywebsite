@@ -24,12 +24,12 @@ header {
     top: 0;
     left: 0;
     z-index: 1;
-    background: #fff;
+    background: #000;
 }
 
 header .logo {
     font-size: 3.5rem;
-    color: #000;
+    color: #fff;
     font-weight: bold;
 }
 
@@ -46,7 +46,11 @@ header .navbar ul li {
 
 header .navbar ul li a {
     font-size: 2rem;
-    color: #000;
+    color: #fff;
+}
+
+header .navbar ul li a:hover {
+    color: #ff0000;
 }
 
 .home {
