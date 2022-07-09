@@ -9,8 +9,11 @@
     <link rel="stylesheet" href="css/style.css">
 
 </head>
-<body>
+<body onload="myFunction()">
     
+    <!-- Preloader -->
+    <div id="loader"></div>
+
     <!-- header section starts -->
 
     <header>
@@ -96,6 +99,14 @@
 
     <!-- home section ends -->
 
+
+    <script>
+        var loader = document.getElementById("loader");
+
+        function myFunction() {
+            loader.style.display = 'none';
+        }
+    </script>
 
 </body>
 </html>
